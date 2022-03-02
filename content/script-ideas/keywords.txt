@@ -1,0 +1,14 @@
+Hi, I will begin with the more simple concepts and features of the different methods of declaring/creating a variable and then transition into the more complex aspects of them.
+I do not mean the same thing when I say declare or create. This will become aparent through out the video.
+These are the four way to create variables in JavaScript. 
+You will notice on line four that foo is being created without a keyword, this is discouraged, and I will get into more detail as to why later on in the video.
+The var keyword is the original decleration keyword, and has function scope; I will get into the finer details of scope later on.
+Variables declared with var can be redeclared using the var keyword, and they can be reassigned as well.
+To be reassigned means to change the value of an already exsiting variable without redeclaring it. 
+To be declared means to use one of the three decleration keywords at the beginning of the line.
+This is one of the reasons to avoid creating a variable without a decleration keyword as that is identical to reassigning an already declared variable.
+let and const are the newest ways of declaring a variable, and provide a more rigid syntax as well as extending the semantics of the language.
+variables cannot be redeclared with let or const, and variables declared with const cannot be reassigned.
+let and const have block scope.
+
+(transition to a more indepth look at each way of creating a variable)
